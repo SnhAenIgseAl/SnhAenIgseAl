@@ -1,0 +1,25 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "SnhAenIgseAl"
+  text: "冲刺冲刺 把甚至乱打的网络名字诠释"
+  tagline: Uniapp踩坑及Electron踩坑日记
+  actions:
+    - theme: brand
+      text: Uniapp踩坑日记
+      link: /markdown-examples
+    - theme: alt
+      text: Electron踩坑日记
+      link: /api-examples
+
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
