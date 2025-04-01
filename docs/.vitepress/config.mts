@@ -13,10 +13,14 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Examples',
+                text: 'Uniapp踩坑日记',
                 items: [
-                    { text: 'Markdown Examples', link: '/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/api-examples' }
+                    { text: 'UView-Plus 返回顶部组件无效果', link: '/uniapp/scroll-top' },
+                ]
+            },
+            {
+                text: 'Electron踩坑日记',
+                items: [
                 ]
             }
         ],

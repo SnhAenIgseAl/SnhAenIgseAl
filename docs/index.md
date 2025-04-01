@@ -8,10 +8,10 @@ hero:
   tagline: Uniapp踩坑及Electron踩坑日记
   actions:
     - theme: brand
-      text: Uniapp踩坑日记
-      link: /markdown-examples
+      text: Uniapp笑传
+      link: /uniapp/index
     - theme: alt
-      text: Electron踩坑日记
+      text: Uniapp笑传
       link: /api-examples
 
 features:
