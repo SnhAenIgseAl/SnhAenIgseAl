@@ -7,19 +7,20 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Examples', link: '/markdown-examples' }
+            { text: '主页', link: '/' },
+            { text: 'Uniapp笑传', link: '/uniapp/index' },
+            { text: 'Electron笑传', link: '/electron/index' },
         ],
 
         sidebar: [
             {
-                text: 'Uniapp踩坑日记',
+                text: 'Uniapp笑传',
                 items: [
                     { text: 'UView-Plus 返回顶部组件无效果', link: '/uniapp/scroll-top' },
                 ]
             },
             {
-                text: 'Electron踩坑日记',
+                text: 'Electron笑传',
                 items: [
                 ]
             }
@@ -29,7 +30,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/SnhAenIgseAl' }
         ],
         search: {
-            provider: 'local'
-        },
+            provider: 'local',
+        }
     }
 })

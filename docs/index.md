@@ -6,13 +6,16 @@ hero:
   name: "SnhAenIgseAl"
   text: "冲刺冲刺 把甚至乱打的网络名字诠释"
   tagline: Uniapp踩坑及Electron踩坑日记
+  image: 
+    src: /avater.png
+    alt: SnhAenIgseAl
   actions:
     - theme: brand
       text: Uniapp笑传
       link: /uniapp/index
     - theme: alt
-      text: Uniapp笑传
-      link: /api-examples
+      text: Electron笑传
+      link: /electron/index
 
 features:
   - title: Feature A
