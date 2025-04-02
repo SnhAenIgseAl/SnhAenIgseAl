@@ -1,5 +1,6 @@
 # UView-Plus 返回顶部组件无效果
 踩坑日期：2024.12.14  
+
 #### 难绷程度：
 😡红温了  
 😶无语了✅  
@@ -12,9 +13,26 @@ uniapp: 8.0.5
 vue: 3.4.21  
 
 ### demo复现
-Article.vue
 
-```html
+::: code-group
+
+```vue [About.vue]
+<template>
+	<view>
+        <Article :articleText="articleText"></Article>
+    </view>
+</template>
+
+<script setup>
+import ref from 'vue'
+import Article from '@/components/Article.vue'
+
+// 长文本
+const articleText = ref('123……')
+</script>
+```
+
+```vue [Article.vue]
 <template>
 	<view>
         <up-back-top 
@@ -48,28 +66,12 @@ onPageScroll((e) => {
 </script>
 ```
 
-About.vue引入子组件Article.vue
+:::
 
-```html
-<template>
-	<view>
-        <Article :articleText="articleText"></Article>
-    </view>
-</template>
-
-<script setup>
-import ref from 'vue'
-import Article from '@/components/Article.vue'
-
-// 长文本
-const articleText = ref('123……')
-</script>
-```
-
-下滑时，页面右下角没有出现返回顶部的按钮，且控制台没有报错。  
+父组件About.vue引入组件Article.vue后，下滑时，页面右下角没有出现返回顶部的按钮，且控制台没有报错。  
 查询相关文档后，子组件Article.vue需要将onPageScroll导出
 
-```html
+```vue
 <script>
 export default {
 	onPageScroll() {}
@@ -79,7 +81,7 @@ export default {
 
 难绷的地方来了，导出onPageScroll后，父组件About.vue只需要带有onPageScroll关键字Uniapp会自动引入该方法
 
-```html{2}
+```vue{2}
 <script setup>
 // 有 onPageScroll 关键字就行
 import ref from 'vue'
