@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "SnhAenIgseAl"
   text: "冲刺冲刺 把甚至乱打的网络名字诠释"
-  tagline: Uniapp踩坑及Electron踩坑日记
+  tagline: 
   image: 
     src: /avater.png
     alt: SnhAenIgseAl
   actions:
     - theme: brand
-      text: Uniapp笑传
-      link: /uniapp/index
+      text: 😅 Uniapp笑传
+      link: /uniapp/scroll-top
     - theme: alt
-      text: Electron笑传
-      link: /electron/index
+      text: 😋 一些小玩意
+      link: /script/bilibili-emoji-filter
 
 features:
   - title: Feature A

@@ -8,24 +8,34 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '主页', link: '/' },
-            { text: 'Uniapp笑传', link: '/uniapp/index' },
-            { text: 'Electron笑传', link: '/electron/index' },
+            { text: 'Uniapp笑传', link: '/uniapp/scroll-top' },
+            { text: '一些小玩意', link: '/script/trinity-force' },
         ],
 
         sidebar: [
             {
                 text: 'Uniapp笑传',
                 items: [
-                    { text: 'UView-Plus 返回顶部组件无效果', link: '/uniapp/scroll-top' },
+                    {
+                        text: 'UView-Plus 返回顶部组件无效果',
+                        link: '/uniapp/scroll-top'
+                    },
                 ]
             },
             {
-                text: 'Electron笑传',
+                text: '一些小玩意',
                 items: [
+                    {
+                        text: '哔哩哔哩评论区黄豆表情过滤',
+                        link: '/script/bilibili-emoji-filter'
+                    },
+                    {
+                        text: '三相之力指示器',
+                        link: '/script/trinity-force'
+                    },
                 ]
             }
         ],
-
         socialLinks: [
             { icon: 'github', link: 'https://github.com/SnhAenIgseAl' }
         ],
