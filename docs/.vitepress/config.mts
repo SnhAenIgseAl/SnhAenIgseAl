@@ -8,19 +8,23 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '主页', link: '/' },
-            { text: 'Uniapp笑传', link: '/uniapp/scroll-top' },
+            { text: 'Uniapp笑传', link: '/uniapp/1' },
             { text: '开源项目', link: '/project/pilipili' },
             { text: '一些小玩意', link: '/script/trinity-force' },
         ],
 
         sidebar: [
             {
-                text: 'Uniapp笑传',
+                text: 'Uniapp 笑传之踩踩 BUG',
                 items: [
                     {
                         text: 'UView-Plus 返回顶部组件无效果',
-                        link: '/uniapp/scroll-top'
+                        link: '/uniapp/1'
                     },
+                    {
+                        text: 'H5 打包失败 unplugin-auto-import 插件版本过高 ',
+                        link: '/uniapp/2'
+                    }
                 ]
             },
             {

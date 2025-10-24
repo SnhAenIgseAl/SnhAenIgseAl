@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 😅 Uniapp笑传
-      link: /uniapp/scroll-top
+      link: /uniapp/1
     - theme: brand
       text: 😍 开源项目
       link: /project/pilipili
