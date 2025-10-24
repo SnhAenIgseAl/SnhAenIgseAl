@@ -9,6 +9,7 @@ export default defineConfig({
         nav: [
             { text: '主页', link: '/' },
             { text: 'Uniapp笑传', link: '/uniapp/scroll-top' },
+            { text: '开源项目', link: '/project/pilipili' },
             { text: '一些小玩意', link: '/script/trinity-force' },
         ],
 
@@ -19,6 +20,19 @@ export default defineConfig({
                     {
                         text: 'UView-Plus 返回顶部组件无效果',
                         link: '/uniapp/scroll-top'
+                    },
+                ]
+            },
+            {
+                text: '开源项目',
+                items: [
+                    {
+                        text: '批哩批哩',
+                        link: '/project/pilipili'
+                    },
+                    {
+                        text: '叮咚记外卖',
+                        link: '/project/ding-dong-ji'
                     },
                 ]
             },

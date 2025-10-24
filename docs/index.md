@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 😅 Uniapp笑传
       link: /uniapp/scroll-top
+    - theme: brand
+      text: 😍 开源项目
+      link: /project/pilipili
     - theme: alt
       text: 😋 一些小玩意
       link: /script/bilibili-emoji-filter
