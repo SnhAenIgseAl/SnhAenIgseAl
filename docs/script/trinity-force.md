@@ -1,13 +1,46 @@
 # 三相之力指示器
 
+##
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+    {
+        avatar: '//wsrv.nl/?url=https://i1.hdslb.com/bfs/face/5ab69d5de7e0f9f1c5719f24be53f3ba0d15acb3.jpg',
+        name: 'Xulaupuz',
+        title: '原作者',
+        links: [
+            { 
+                icon: 'bilibili', 
+                link: 'https://space.bilibili.com/11232033' 
+            }
+        ],
+    },
+    {
+        avatar: '//wsrv.nl/?url=https://i1.hdslb.com/bfs/face/34f46a77dd4f5ffc5e80315131c0e83b3242d2e6.jpg@128w_128h_1c_1s.webp',
+        name: 'SnhAenIgseAl',
+        title: '改进',
+        links: [
+            {
+                icon: 'github',
+                link: 'https://github.com/SnhAenIgseAl'
+            },
+            { 
+                icon: 'bilibili', 
+                link: 'https://space.bilibili.com/109066415' 
+            }
+        ]
+    }
+]
+</script>
+<VPTeamMembers size="small" :members />
+
 ##  
 > 曾经我认为人与人之间的交流是平等的，不应该戴着有色眼镜先入为主  
 而现在我认为，人与人之间的交流应该多点攻击性
 
 ## 简介
-原作者：Xulaupuz  
-改进：SnhAenIgseAl  
-版本：0.7.1 Beta  
+- 最新版本：0.7.1 Beta  
 ::: danger
 新新版B站评论区（动态、视频、图文）均采用了shadow dom，低于0.7.0版本的脚本无法正常使用  
 :::
