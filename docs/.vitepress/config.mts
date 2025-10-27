@@ -4,15 +4,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: "SnhAenIgseAl",
     description: "SnhAenIgseAl's website.",
+    appearance: 'dark',
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '主页', link: '/' },
             { text: 'Uniapp笑传', link: '/uniapp/1' },
             { text: '开源项目', link: '/project/pilipili' },
             { text: '一些小玩意', link: '/script/trinity-force' },
         ],
-
         sidebar: [
             {
                 text: 'Uniapp 笑传之踩踩 BUG',
