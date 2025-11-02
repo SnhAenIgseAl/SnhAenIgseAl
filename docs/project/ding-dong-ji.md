@@ -1,6 +1,6 @@
 # 叮咚记外卖
 叮咚记外卖，前后端分离全栈项目  
-Strpai 或成前端全栈的最后一块拼图
+Strapi 或成前端全栈的最后一块拼图
 
 ## 技术栈
 - 用户端：Uniapp、Vue 3、TypeScript、Pinia、Wot design uni

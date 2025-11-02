@@ -23,6 +23,10 @@ export default defineConfig({
                     {
                         text: 'H5 打包失败 unplugin-auto-import 插件版本过高 ',
                         link: '/uniapp/2'
+                    },
+                    {
+                        text: '微信小程序环境无法获取 DOM 结点 ',
+                        link: '/uniapp/3'
                     }
                 ]
             },
