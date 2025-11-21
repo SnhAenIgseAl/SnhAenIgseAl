@@ -54,6 +54,10 @@ export default defineConfig({
                         text: '三相之力指示器',
                         link: '/script/trinity-force'
                     },
+                    {
+                        text: 'Strapi 微信小程序插件',
+                        link: '/script/strapi-plugin-wechat-miniprogram'
+                    }
                 ]
             }
         ],

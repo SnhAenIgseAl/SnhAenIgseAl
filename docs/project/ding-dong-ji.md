@@ -27,3 +27,9 @@ Strapi 或成前端全栈的最后一块拼图
 
 ## 项目地址
 https://github.com/SnhAenIgseAl/Ding-Dong-Ji
+
+## 在线演示（客户端）
+https://dingdong.h5.snhaenigseal.cn
+
+## 在线演示（商家端）
+https://dingdong.m.snhaenigseal.cn

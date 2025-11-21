@@ -35,3 +35,6 @@ https://github.com/SnhAenIgseAl/pilipili
 ::: danger
 因为后端能直接获取到用户 cookie，所以就不开源了
 :::
+
+## 在线演示
+https://pilipili.snhaenigseal.cn

@@ -25,13 +25,14 @@ features:
     title: 三相之力指示器
     details: 适用于B站评论区脚本。无需点开动态查成分，对线快人一步
     link: /script/trinity-force
+  - icon: 🐔
+    title: Strapi 微信小程序插件
+    details: 适用于 strapi v5 微信小程序 api 插件
+    link: /script/strapi-plugin-wechat-miniprogram
   - icon: 🤖
     title: 批哩批哩
     details: 防B站前端项目。更加个性化的刷视频、浏览评论区
     link: /project/pilipili
-  - icon: 🐔
-    title: 叮咚记外卖
-    details: 狗椒大会员点击就送
-    link: /project/ding-dong-ji
+
 ---
 
