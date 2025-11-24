@@ -14,10 +14,11 @@
   
 | 参数名  | 类型  | 是否必须  |
 | ------------ | ------------ | :----------: |
-| code  | string  | √ |
+| openidCode  | string  | √ |
+| phoneCode  | string  |  |
 - 权限： `public`  
   
-请求成功后返回 jwt 和 user 信息，等同于 strapi 用户。
+仅带有 `openidCode` 参数时会以 `openid` 为主键创建用户
 ::: details 响应
 ``` json
 {
@@ -33,6 +34,27 @@
         "createdAt": "2025-11-20T09:57:03.063Z",
         "updatedAt": "2025-11-20T09:57:03.063Z",
         "publishedAt": "2025-11-20T09:57:02.997Z"
+    }
+}
+```
+:::
+
+同时带有 `openidCode` 和 `phoneCode` 参数以手机号为主键创建用户
+::: details 响应
+``` json
+{
+    "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsImlhdCI6MTc2Mzk3MTIwNCwiZXhwIjoxNzY2NTYzMjA0fQ.rZ0_9gBILUl25TNAQSXnPmJ2Je2ZrhV45D2kdX66IZY",
+    "user": {
+        "id": 11,
+        "documentId": "jrzss6zc1gas8toy9ddhzy27",
+        "username": "XXXXXXXXXXX",
+        "email": "XXXXXXXXXXX@example.com",
+        "provider": null,
+        "confirmed": true,
+        "blocked": false,
+        "createdAt": "2025-11-24T08:00:04.572Z",
+        "updatedAt": "2025-11-24T08:00:04.572Z",
+        "publishedAt": "2025-11-24T08:00:04.502Z"
     }
 }
 ```
